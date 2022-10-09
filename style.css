@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2734;
+  text-align: center;
+  color: aliceblue;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.input {
+  box-sizing: border-box;
+  width: 35vh;
+  height: 35px;
+  background-color: #9a86fd;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  transition: all 0.5s;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 1%;
+}
+.input::placeholder {
+  color: #000;
+  font-style: italic;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0px 0px 15px #ffb870;
+}
+table{
+  margin: auto;
+}
+.colorDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.color {
+  appearance: none;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.color::-webkit-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+.color::-moz-color-swatch {
+  border-radius: 15px;
+  border: none;
+}
+.submit {
+  transition: all 0.5s;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  width: 70px;
+  height: 100%;
+  background-color: #9a86fd;
+  border-radius: 25px;
+  margin: 20px;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submit:hover {
+  outline: none;
+  box-shadow: 0px 0px 15px #ffb870;
+}
+.pasteHere {
+  display: grid;
+  grid-row-start: auto;
+  grid-template-columns: auto auto auto auto;
+  word-wrap: break-word;
+  width: 100%;
+  border-collapse: separate;
+  margin: 0 auto;
+}
+.cell {
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 1vh;
+  height: 90px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.cell:hover {
+  box-shadow: 0px 0px 15px #ffb870;
+}
+
+.close {
+  font-size: large;
+  padding: 4px;
+  line-height: 15px;
+  border-radius: 10px;
+  float: right;
+  cursor: pointer;
+  content: "\00d7";
+  color: rgb(255, 255, 255);
+  display: none;
+}
+.close:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+}
+.done {
+  font-size: large;
+  padding: 4px;
+  line-height: 15px;
+  border-radius: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
+.center{
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.copyHrt{
+  color: red;
+}
