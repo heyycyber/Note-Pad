@@ -29,7 +29,7 @@ body {
 }
 .input:focus {
   outline: none;
-  box-shadow: 0px 0px 15px #ffb870;
+  box-shadow: 0px 0px 10px #ffb870;
 }
 table{
   margin: auto;
@@ -97,7 +97,7 @@ label {
   text-align: center;
 }
 .cell:hover {
-  box-shadow: 0px 0px 15px #ffb870;
+  box-shadow: 0px 0px 10px #ffb870;
 }
 
 .close {
@@ -113,7 +113,6 @@ label {
 }
 .close:hover {
   color: #000;
-  background-color: rgb(255, 255, 255);
 }
 .done {
   font-size: large;
